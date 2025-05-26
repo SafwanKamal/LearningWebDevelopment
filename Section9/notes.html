@@ -1,0 +1,45 @@
+<!--flexbox disregards the normal layouts of 
+block, inline and inline-blocks (elements like ul/ol/div)
+get directly impacted by this. -->
+
+
+<!-- Inline-flex just uses the bare minimum flex to contain 
+ all the content
+ -->
+
+<!--Flexbox propoerties:
+    1. flex-wrap (parent)
+    2. gap (parent)
+    3. flex-direction (parent)
+    4. flex-basis (child)
+    5. order (child)
+    6. justify-content (parent) (along main axis)
+    7. align-items (parent) (along cross axis) (have to set height first) (friction with wrap)
+    8. align-self (child) (same as align-items but specific to the children)
+    9. align-content (parent) (need wrap)
+    10. flex-flow -> flex-direction + flex-wrap
+    11. flex-grow 
+    12. flex-shrink : both can be 0(off) / other value (on)
+    13. flex: GROW SHRINK BASIS
+    -->
+
+<!-- Flexbox Demonstration: https://appbrewery.github.io/flex-layout/-->
+
+<!-- wrap property creates a 2D flexbox. There main-axis
+ and cross-axis is more important to consider.-->
+
+ <!-- vh -> viewport height-->
+
+ <!-- Flexbox size setting priority-> min-width/max-width > flex-basis > width > content width-->
+  <!-- >>>>> this priority depends on space availibility (until there is space left in the container
+   ,  this order is honored). When space is limited/shrunken, first content-minimum-width (i.e. longest word length) is
+   prioritized for setting flexbox, and if even that requires more space than left in the container, flexbox just pushed it
+   out of the viewport. 
+   -->
+
+   <!-- max-width -> sets how wide a flex can be at maximum (highest priority in flexbox size setting)-->
+    <!-- If max/min-width is set, then even if the browswer is maximized/shruken the flexbox wont get bigger/smaller than the set size.-->
+
+
+    <!--flex: GROW SHRINK BASIS ****
+    -->
