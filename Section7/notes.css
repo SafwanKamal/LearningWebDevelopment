@@ -1,0 +1,26 @@
+/*CSS Selector Combination*/
+p{
+    color: yellow;
+}
+
+.inner-box p{
+    /*gets the class and then all the 'childs' which are p*/
+    color: white;
+}
+
+/*Grouping Selectors*/
+
+h1, h2{
+    color: blue;
+}
+
+.id, #class, h1{
+    color: beige;
+}
+
+/*Parent-direct child*/
+
+
+div > p{
+    color: blueviolet;
+}

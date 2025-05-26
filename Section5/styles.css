@@ -1,0 +1,18 @@
+*{
+    text-transform: uppercase;
+}
+
+.p1{
+    color: aliceblue;
+}
+
+#p11{
+    color: aqua;
+}
+
+p[draggable]{
+    color: bisque;
+    padding: 0px 10px 20px 40px;
+    margin: 0px 20px;
+}
+

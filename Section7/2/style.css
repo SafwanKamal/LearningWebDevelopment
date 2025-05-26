@@ -1,0 +1,30 @@
+/* Write your code here: */
+
+
+/*Group*/
+h1, h2{
+    color: blue;
+}
+
+/*direct child*/
+div[class="box"] > p{
+    color: firebrick;
+}
+
+/*Descendant (not necessarily direct) combination*/
+
+.box li{
+    color: blue;
+}
+
+/*Chaining(connect selectors with no spaces, with elements at the first*/
+li.done{
+    color: seagreen;
+}
+
+/*Combining Combiners*/
+
+ul p.done{
+    font-size: 0.5rem;
+}
+

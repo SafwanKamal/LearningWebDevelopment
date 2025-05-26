@@ -1,0 +1,80 @@
+body{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#first-hero{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.gradient-background {
+    /*#7ca2e0, #7853bd, #8edfd8
+    #711c91,	#0abdc6, 	#133e7c*/
+    background: linear-gradient(300deg, #0abdc6, #00ff9f, #711c91);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+.skill-descript{
+    font-size: 1.3rem !important;
+}
+
+.interest-logo{
+    height: 35px;
+    width: 35px;
+    border-radius: 10%;
+    margin: 10px;
+}
+
+
+#skills{
+    background-color: #00ff9f15;
+}
+
+#interests{
+    background-color: #711c9109;
+}
+
+#interests p{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#first-hero p{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+#introduction{
+    background-color: #0abdc615;
+}
+
+#introduction p{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+#end{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+
+#skill-link-1{
+    all: unset;
+}
+
+#skill-link-1:hover{
+    cursor: pointer;
+    color: #0abdc6;
+}
